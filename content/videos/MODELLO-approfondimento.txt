@@ -1,0 +1,44 @@
+COME SCRIVERE L'APPROFONDIMENTO DI UN VIDEO
+===========================================
+
+1. Trova l'ID del video: sono le 11 lettere dopo "v=" nell'indirizzo di YouTube.
+   Esempio: https://www.youtube.com/watch?v=dQw4w9WgXcQ  ->  ID = dQw4w9WgXcQ
+   (L'elenco di tutti gli ID è anche nel file data/elenco-video.txt)
+
+2. Crea in questa cartella un file che si chiama ID.md
+   Esempio: dQw4w9WgXcQ.md
+
+3. Copia dentro il testo qui sotto (dalla riga con i tre trattini) e riempilo:
+
+---
+sezione: old-garage        # old-garage, tech-lab oppure maker (facoltativo se nella descrizione YouTube c'è #garage, #tech o #maker)
+tag: [ciao, restauro, telaio]
+---
+
+Scrivi qui l'approfondimento. Puoi usare:
+
+## Un titolo di paragrafo
+
+Testo normale, **grassetto**, *corsivo*, [un link](https://esempio.it).
+
+- elenco puntato
+- secondo punto
+
+![descrizione della foto](/media/nome-foto.jpg)
+
+---
+
+Campi facoltativi nella parte tra i trattini:
+  titolo: "Un titolo diverso da quello di YouTube"
+  nascondi: true        (il video non compare sul sito)
+
+I FILE DA SCARICARE
+-------------------
+Crea nella cartella "downloads" una sottocartella con lo stesso ID del video e
+mettici dentro i file (pdf, stl, zip...). Compariranno da soli nella pagina del video.
+Esempio: downloads/dQw4w9WgXcQ/supporto-casco.stl
+
+LE FOTO
+-------
+Mettile nella cartella "media" e richiamale nel testo con /media/nome-foto.jpg
+(meglio se non più grandi di 1600 pixel di larghezza).

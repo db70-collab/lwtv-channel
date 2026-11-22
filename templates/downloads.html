@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% from "_macros.html" import icona, file_list, ad %}
+{% block content %}
+<section class="container py-5 sec-azzurro">
+  <div class="d-flex align-items-center gap-3 mb-2">
+    <span class="sec-icon">{{ icona('download', 52) }}</span>
+    <h1 class="display-title display-title-sm mb-0">Download</h1>
+  </div>
+  <p class="lead-lw">Schemi, modelli 3D, script e documenti dei progetti mostrati nei video. Ogni gruppo di file rimanda al video e all'approfondimento da cui nasce.</p>
+
+  {% if gruppi %}
+  <div class="row g-4">
+    {% for v in gruppi %}
+    <div class="col-lg-6">
+      <div class="card-lw sec-{{ v.sezione.colore }} p-4 h-100">
+        <div class="d-flex flex-wrap align-items-center gap-3 mb-2">
+          <span class="badge-sec badge-inline">{{ v.sezione.nome }}</span>
+          <time class="small text-muted" datetime="{{ v.data_iso }}">{{ v.data_it }}</time>
+        </div>
+        <h2 class="h5 mb-3"><a class="title-link" href="{{ url('/video/' ~ v.slug ~ '/') }}">{{ v.titolo }}</a></h2>
+        {{ file_list(v.file) }}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="card-lw p-4">
+    <p class="mb-0 text-soft">Non ci sono ancora file da scaricare: arriveranno insieme ai prossimi progetti.</p>
+  </div>
+  {% endif %}
+  {{ ad('banner') }}
+</section>
+{% endblock %}

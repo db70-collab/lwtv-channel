@@ -1,0 +1,6 @@
+# Elenco dei video da NON mostrare sul sito (uno per riga, solo l'ID di 11 caratteri).
+# Le righe che iniziano con # sono commenti e vengono ignorate.
+# Gli ID di tutti i video li trovi in data/elenco-video.txt
+#
+# Esempio:
+# dQw4w9WgXcQ

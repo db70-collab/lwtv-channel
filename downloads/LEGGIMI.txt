@@ -1,0 +1,10 @@
+File da scaricare dei video.
+
+Per ogni video crea una sottocartella con l'ID del video (le 11 lettere dopo "v=" nell'indirizzo di YouTube)
+e mettici i file. Esempio:
+
+  downloads/dQw4w9WgXcQ/schema.pdf
+  downloads/dQw4w9WgXcQ/supporto.stl
+
+Compariranno da soli nella pagina del video e nella pagina Download.
+Limite di GitHub: massimo 100 MB per singolo file (sotto i 50 MB è meglio).

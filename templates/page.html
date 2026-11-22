@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="container py-5 sec-arancio">
+  <h1 class="display-title display-title-sm mb-4">{{ pagina.titolo }}</h1>
+  <div class="prose">{{ pagina.html|safe }}</div>
+</section>
+{% endblock %}

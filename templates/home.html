@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+{% from "_macros.html" import icona, video_card, ad, file_list %}
+{% block content %}
+
+<section class="container hero py-5">
+  <div class="row align-items-center g-5">
+    <div class="col-lg-6">
+      <p class="eyebrow">Garage · Laboratorio · Officina</p>
+      <h1 class="display-title">Dal garage al <span class="text-accent">laboratorio.</span></h1>
+      <p class="lead-lw">Restauri di cinquantini, modifiche, stampa 3D, domotica e progetti fatti con le nostre mani. Ogni video ha il suo approfondimento e i file da scaricare.</p>
+      <div class="d-flex flex-wrap gap-3">
+        {% if ultimo %}<a class="btn-lw btn-lw-lg" href="{{ url('/video/' ~ ultimo.slug ~ '/') }}">Guarda l'ultimo video</a>{% else %}<a class="btn-lw btn-lw-lg" href="{{ cfg.url_canale }}" rel="noopener">Vai al canale YouTube</a>{% endif %}
+        <a class="btn-lw-outline btn-lw-lg" href="#sezioni">Esplora i progetti</a>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      {% if ultimo %}
+      <article class="card-lw sec-{{ ultimo.sezione.colore }} p-3 position-relative">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <span class="eyebrow mb-0">Ultimo video</span>
+          <time class="small text-muted" datetime="{{ ultimo.data_iso }}">{{ ultimo.data_it }}</time>
+        </div>
+        <a class="thumb thumb-lg" href="{{ url('/video/' ~ ultimo.slug ~ '/') }}" tabindex="-1" aria-hidden="true">
+          <img src="{{ ultimo.miniatura }}" alt="" width="480" height="270">
+          <span class="play play-lg">{{ icona('play', 32) }}</span>
+        </a>
+        <h2 class="h4 mt-3 mb-2"><a class="stretched-link title-link" href="{{ url('/video/' ~ ultimo.slug ~ '/') }}">{{ ultimo.titolo }}</a></h2>
+        <div class="d-flex flex-wrap gap-2">
+          <span class="badge-sec badge-inline">{{ ultimo.sezione.nome }}</span>
+          {% if ultimo.approfondimento %}<span class="chip chip-static">Approfondimento</span>{% endif %}
+          {% if ultimo.file %}<span class="chip chip-static">File da scaricare</span>{% endif %}
+        </div>
+      </article>
+      {% else %}
+      <div class="card-lw sec-arancio p-4">
+        <p class="eyebrow">Si parte</p>
+        <h2 class="h4">I primi video arrivano a breve</h2>
+        <p class="mb-0 text-soft">Il sito si aggiorna da solo a ogni nuovo video pubblicato sul canale.</p>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<section class="container pb-5" id="sezioni">
+  <h2 class="section-title">Le nostre <span class="text-accent">officine</span></h2>
+  <div class="row g-4">
+    {% for s in sections %}
+    <div class="col-md-6 col-lg-4">
+      <div class="card-lw sec-{{ s.colore }} p-4 h-100 position-relative">
+        <span class="sec-icon">{{ icona(s.icona, 44) }}</span>
+        <h3 class="h3 mt-3 mb-2">{{ s.nome }}</h3>
+        <p class="text-soft">{{ s.descrizione }}</p>
+        <a class="stretched-link sec-link" href="{{ url('/' ~ s.slug ~ '/') }}">Vai alla sezione →</a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+{{ ad('banner') }}
+
+{% if recenti %}
+<section class="container pb-5" id="video">
+  <h2 class="section-title">Ultimi <span class="text-accent">approfondimenti</span></h2>
+  <div class="row g-4">
+    {% for v in recenti %}
+    <div class="col-md-6 col-lg-4">{{ video_card(v) }}</div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% if con_file %}
+<section class="container pb-5">
+  <div class="d-flex flex-wrap align-items-baseline justify-content-between gap-2 mb-3">
+    <h2 class="section-title mb-0">Download <span class="text-accent">recenti</span></h2>
+    <a class="sec-link" href="{{ url('/download/') }}">Tutti i download →</a>
+  </div>
+  <div class="row g-4">
+    {% for v in con_file[:3] %}
+    <div class="col-lg-4">
+      <div class="card-lw sec-{{ v.sezione.colore }} p-4 h-100">
+        <h3 class="h6 mb-3"><a class="title-link" href="{{ url('/video/' ~ v.slug ~ '/') }}">{{ v.titolo }}</a></h3>
+        {{ file_list(v.file[:3]) }}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<section class="cta-band">
+  <div class="container py-5 d-flex flex-wrap align-items-center justify-content-between gap-4">
+    <div>
+      <h2 class="mb-2">Entra nel nostro garage</h2>
+      <p class="mb-0 fs-5">Siamo due maker amatoriali con la passione per i motori e per la tecnologia. Iscriviti al canale per non perdere i prossimi lavori.</p>
+    </div>
+    <a class="btn-lw-dark btn-lw-lg" href="{{ cfg.url_canale }}" rel="noopener">Iscriviti su YouTube</a>
+  </div>
+</section>
+
+{% endblock %}

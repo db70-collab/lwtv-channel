@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Feed finto per provare il sito in locale (vedi README) -->
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <title>Prova</title>
+ <entry>
+  <id>yt:video:Ab1Cd2Ef3Gh</id>
+  <yt:videoId>Ab1Cd2Ef3Gh</yt:videoId>
+  <title>Restauro Ciao: il telaio dopo la sabbiatura</title>
+  <published>2026-11-20T10:00:00+00:00</published>
+  <media:group>
+   <media:description>Seconda puntata del restauro del Ciao. Trovi i ricambi qui: https://example.com/ricambi
+
+Grazie a tutti!
+#garage #restauro #ciao #shorts</media:description>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Zy9Xw8Vu7Ts</id>
+  <yt:videoId>Zy9Xw8Vu7Ts</yt:videoId>
+  <title>Firewall e router: come proteggere la rete di casa</title>
+  <published>2026-11-15T09:30:00+00:00</published>
+  <media:group>
+   <media:description>Configuriamo un firewall con regole semplici.</media:description>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Qa2Ws3Ed4Rf</id>
+  <yt:videoId>Qa2Ws3Ed4Rf</yt:videoId>
+  <title>Stampa 3D: supporto per il casco</title>
+  <published>2026-11-10T18:00:00+00:00</published>
+  <media:group>
+   <media:description>Un supporto stampato e montato in garage. #maker #stampa3d</media:description>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Bb5Nn6Mm7Kk</id>
+  <yt:videoId>Bb5Nn6Mm7Kk</yt:videoId>
+  <title>BBQ di Ferragosto: costine e salsiccia</title>
+  <published>2026-08-15T19:00:00+00:00</published>
+  <media:group>
+   <media:description>Una grigliata con gli amici.</media:description>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Cc8Vv9Xx1Zz</id>
+  <yt:videoId>Cc8Vv9Xx1Zz</yt:videoId>
+  <title>Vlog: weekend in montagna</title>
+  <published>2026-07-02T08:00:00+00:00</published>
+  <media:group>
+   <media:description>Due giorni di relax.</media:description>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Dd3Ff4Gg5Hh</id>
+  <yt:videoId>Dd3Ff4Gg5Hh</yt:videoId>
+  <title>Domotica con Home Assistant e ESP32</title>
+  <published>2026-06-20T12:00:00+00:00</published>
+  <media:group>
+   <media:description>Automatizziamo le luci del garage con un ESP32. #stampa3d</media:description>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Ee6Jj7Kk8Ll</id>
+  <yt:videoId>Ee6Jj7Kk8Ll</yt:videoId>
+  <title>Motorino Garelli: il motore riparte</title>
+  <published>2026-05-05T15:00:00+00:00</published>
+  <media:group>
+   <media:description>Dopo mesi il Garelli riparte al primo colpo.</media:description>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Ff9Mm1Nn2Pp</id>
+  <yt:videoId>Ff9Mm1Nn2Pp</yt:videoId>
+  <title>Legno &amp; resina: il tavolo da officina</title>
+  <published>2026-04-01T11:00:00+00:00</published>
+  <media:group>
+   <media:description>Costruiamo il tavolo con una colata di resina. #maker #resina</media:description>
+  </media:group>
+ </entry>
+</feed>

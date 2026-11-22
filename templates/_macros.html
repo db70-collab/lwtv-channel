@@ -1,0 +1,55 @@
+{% macro icona(nome, size=40) %}
+{% if nome == 'chiave' %}
+<svg width="{{ size }}" height="{{ size }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.1L3 17.7 6.3 21l6.3-6.3a4 4 0 0 0 5.1-5.4l-2.6 2.6-2.4-.6-.6-2.4z"></path></svg>
+{% elif nome == 'chip' %}
+<svg width="{{ size }}" height="{{ size }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="1"></rect><rect x="9.5" y="9.5" width="5" height="5"></rect><path d="M9 3v3M15 3v3M9 18v3M15 18v3M3 9h3M3 15h3M18 9h3M18 15h3"></path></svg>
+{% elif nome == 'cubo' %}
+<svg width="{{ size }}" height="{{ size }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"></path><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"></path></svg>
+{% elif nome == 'download' %}
+<svg width="{{ size }}" height="{{ size }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v12M7 11l5 5 5-5M5 20h14"></path></svg>
+{% elif nome == 'play' %}
+<svg width="{{ size }}" height="{{ size }}" viewBox="0 0 24 24" aria-hidden="true"><polygon points="8,5 19,12 8,19" fill="currentColor"></polygon></svg>
+{% endif %}
+{% endmacro %}
+
+{% macro video_card(v) %}
+<article class="card-lw video-card sec-{{ v.sezione.colore }} h-100">
+  <a class="thumb" href="{{ url('/video/' ~ v.slug ~ '/') }}" tabindex="-1" aria-hidden="true">
+    <img src="{{ v.miniatura }}" alt="" loading="lazy" width="480" height="270">
+    <span class="badge-sec">{{ v.sezione.nome }}</span>
+    <span class="play">{{ icona('play', 24) }}</span>
+  </a>
+  <div class="p-3 p-lg-4">
+    <time class="small text-muted" datetime="{{ v.data_iso }}">{{ v.data_it }}</time>
+    <h3 class="h5 my-2"><a class="stretched-link title-link" href="{{ url('/video/' ~ v.slug ~ '/') }}">{{ v.titolo }}</a></h3>
+    {% if v.estratto %}<p class="mb-3 small text-soft">{{ v.estratto }}</p>{% endif %}
+    <div class="d-flex flex-wrap gap-2">
+      {% if v.approfondimento %}<span class="chip chip-static">Approfondimento</span>{% endif %}
+      {% if v.file %}<span class="chip chip-static">{{ v.file|length }} {{ 'file' if v.file|length == 1 else 'file' }} da scaricare</span>{% endif %}
+    </div>
+  </div>
+</article>
+{% endmacro %}
+
+{% macro ad(tipo) %}
+{% if cfg.adsense.attivo and cfg.adsense.client %}
+{% set slot = cfg.adsense.slot_banner if tipo == 'banner' else cfg.adsense.slot_riquadro %}
+{% if slot %}
+<div class="ad-wrap my-4">
+  <ins class="adsbygoogle" style="display:block" data-ad-client="{{ cfg.adsense.client }}" data-ad-slot="{{ slot }}" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+{% endif %}
+{% endif %}
+{% endmacro %}
+
+{% macro file_list(files) %}
+{% for f in files %}
+<a class="dl-row" href="{{ f.url }}" download>
+  {{ icona('download', 22) }}
+  <span class="dl-name">{{ f.nome }}</span>
+  <span class="dl-size">{{ f.dimensione }}</span>
+  <span class="ext-tag">{{ f.ext }}</span>
+</a>
+{% endfor %}
+{% endmacro %}

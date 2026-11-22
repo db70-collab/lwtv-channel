@@ -1,0 +1,113 @@
+{
+  "titolo": "LWTV Channel",
+  "slogan": "Dal garage al laboratorio",
+  "descrizione": "Restauri di cinquantini e moto d'epoca, stampa 3D, domotica, informatica e progetti fai da te. Approfondimenti e file da scaricare dei video di LWTV Channel.",
+  "channel_id": "UCjmtjaPFGSipuFlPPyU4hOw",
+  "url_canale": "https://www.youtube.com/@linuxwar70",
+  "base_path": "",
+  "url_sito": "",
+  "hashtag_ignorati": [
+    "shorts",
+    "youtube",
+    "video",
+    "lwtv",
+    "lwtvchannel",
+    "oldgarage"
+  ],
+  "sezioni": [
+    {
+      "slug": "old-garage",
+      "nome": "Old Garage",
+      "hashtag": "garage",
+      "colore": "arancio",
+      "icona": "chiave",
+      "descrizione": "Restauri e modifiche di bici, moped, moto e auto. Dal telaio arrugginito al motore che riparte.",
+      "parole_chiave": [
+        "restauro",
+        "restauri",
+        "restaurare",
+        "ciao",
+        "bravo",
+        "vespa",
+        "moped",
+        "motorino",
+        "motorini",
+        "cinquantino",
+        "cinquantini",
+        "garelli",
+        "fifty",
+        "motron",
+        "tubone",
+        "motore",
+        "marmitta",
+        "carburatore",
+        "moto",
+        "bici",
+        "bicicletta",
+        "auto",
+        "meccanica"
+      ]
+    },
+    {
+      "slug": "tech-lab",
+      "nome": "Tech Lab",
+      "hashtag": "tech",
+      "colore": "azzurro",
+      "icona": "chip",
+      "descrizione": "AI, stampa 3D, domotica e automazione per l'officina e per casa. Linux compreso.",
+      "parole_chiave": [
+        "linux",
+        "router",
+        "firewall",
+        "wifi",
+        "domotica",
+        "automazione",
+        "stampa 3d",
+        "stampante 3d",
+        "3d",
+        "intelligenza artificiale",
+        "raspberry",
+        "proxmox",
+        "server",
+        "pc",
+        "computer",
+        "smartphone",
+        "tutorial",
+        "home assistant",
+        "esp32",
+        "arduino",
+        "chatgpt",
+        "claude",
+        "gemini"
+      ]
+    },
+    {
+      "slug": "maker",
+      "nome": "Maker",
+      "hashtag": "maker",
+      "colore": "crema",
+      "icona": "cubo",
+      "descrizione": "Legno, resina, metallo e progetti per casa. Se non esiste, ce lo costruiamo.",
+      "parole_chiave": [
+        "legno",
+        "resina",
+        "metallo",
+        "saldatura",
+        "fai da te",
+        "bricolage",
+        "ristrutturazione",
+        "ristrutturare",
+        "costruire",
+        "costruiamo",
+        "falegnameria",
+        "tavolo"
+      ]
+    }
+  ],
+  "adsense": {
+    "attivo": false,
+    "client": "",
+    "slot_banner": "",
+    "slot_riquadro": ""
+  }
+}

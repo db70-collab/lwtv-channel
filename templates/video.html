@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% from "_macros.html" import icona, video_card, ad, file_list %}
+{% block head %}
+<script type="application/ld+json">{{ {"@context": "https://schema.org", "@type": "VideoObject", "name": v.titolo, "description": (v.estratto or v.titolo), "thumbnailUrl": v.miniatura, "uploadDate": v.data_iso, "embedUrl": "https://www.youtube.com/embed/" ~ v.id}|tojson }}</script>
+{% endblock %}
+{% block content %}
+<article class="container py-5 sec-{{ v.sezione.colore }}">
+  <nav aria-label="Percorso" class="small mb-3">
+    <a href="{{ url('/') }}">Home</a> <span class="text-muted">/</span>
+    <a href="{{ url('/' ~ v.sezione.slug ~ '/') }}">{{ v.sezione.nome }}</a>
+  </nav>
+  <div class="d-flex flex-wrap align-items-center gap-3 mb-2">
+    <a class="badge-sec badge-inline" href="{{ url('/' ~ v.sezione.slug ~ '/') }}">{{ v.sezione.nome }}</a>
+    <time class="small text-muted" datetime="{{ v.data_iso }}">{{ v.data_it }}</time>
+  </div>
+  <h1 class="display-title display-title-sm mb-4">{{ v.titolo }}</h1>
+
+  <div class="row g-5">
+    <div class="col-lg-8">
+      <div class="card-lw p-2 p-md-3 mb-4">
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.youtube-nocookie.com/embed/{{ v.id }}" title="{{ v.titolo }}" loading="lazy"
+                  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      {% if v.approfondimento %}
+      <h2 class="h3 mb-3">Approfondimento</h2>
+      <div class="prose">{{ v.approfondimento|safe }}</div>
+      {% else %}
+      {% if v.descrizione_html %}
+      <h2 class="h3 mb-3">Dal video</h2>
+      <div class="prose">{{ v.descrizione_html|safe }}</div>
+      {% endif %}
+      <p class="note-box mt-4">L'approfondimento scritto di questo video arriverà presto.</p>
+      {% endif %}
+
+      {% if v.tag %}
+      <div class="d-flex flex-wrap gap-2 mt-4" aria-label="Argomenti">
+        {% for t in v.tag %}<span class="chip chip-static">#{{ t }}</span>{% endfor %}
+      </div>
+      {% endif %}
+    </div>
+
+    <aside class="col-lg-4">
+      {% if v.file %}
+      <section class="card-lw p-4 mb-4" aria-labelledby="dl-titolo">
+        <h2 class="h4 mb-3" id="dl-titolo">File da scaricare</h2>
+        {{ file_list(v.file) }}
+      </section>
+      {% endif %}
+      <a class="btn-lw-outline w-100 justify-content-center mb-4" href="https://www.youtube.com/watch?v={{ v.id }}" rel="noopener">Guarda su YouTube</a>
+      {{ ad('riquadro') }}
+    </aside>
+  </div>
+
+  {% if simili %}
+  <section class="mt-5" aria-labelledby="simili-titolo">
+    <h2 class="section-title" id="simili-titolo">Altri da <span class="text-accent">{{ v.sezione.nome }}</span></h2>
+    <div class="row g-4">
+      {% for s in simili %}<div class="col-md-6 col-lg-4">{{ video_card(s) }}</div>{% endfor %}
+    </div>
+  </section>
+  {% endif %}
+</article>
+{% endblock %}
