@@ -1,3 +1,109 @@
 {
- "videos": {}
+ "videos": {
+  "72pTmfIfcvs": {
+   "description": "NON È UNA RICETTA. È UN MAESTRO DI PIZZA DENTRO CHATGPT. 🍕\n\nTutti chiedono a ChatGPT una ricetta per fare la pizza.\n\nNoi abbiamo provato a fare qualcosa di diverso: abbiamo creato un PROMPT che trasforma ChatGPT in un vero e proprio maestro di pizza, capace di seguirci passo dopo passo mentre impariamo.\n\nE la cosa più assurda?\n\nSiamo partiti praticamente da zero. 😅\n\nNiente impastatrice, un normale forno per pizza domestico e tanta poca esperienza. Abbiamo seguito le indicazioni del nostro “maestro”, gli abbiamo detto cosa stavamo facendo e gli abbiamo fatto correggere il tiro durante tutto il processo.\n\nDall'impasto alla lievitazione, dalla stesura alla cottura.\n\nE alla fine... abbiamo mangiato una PIZZA VERA. 🍕\n\nIn questo video vediamo se l'idea funziona davvero e soprattutto se un principiante può imparare a fare una buona pizza utilizzando ChatGPT non come semplice generatore di ricette, ma come guida interattiva.\n\nIl nostro progetto si chiama:\n\n🍕 PROGETTO PIZZA — IMPARARE A FARE LA PIZZA CON CHATGPT\n\nIl PROMPT che abbiamo creato è pensato per:\n• seguirti passo dopo passo\n• spiegarti cosa stai facendo\n• controllare gli errori\n• adattarsi alle condizioni reali\n• aiutarti durante impasto e lievitazione\n• guidarti fino alla cottura\n• migliorare la ricetta in base al risultato\n\nE questa è solo la VERSIONE 1.\n\n👉 Il prompt lo trovi qui:\nhttps://drive.google.com/file/d/1-bNlm6ZkFG6PqcZy8JDG_N9hYoTlajUI/view?usp=drivesdk\nIl fornetto lo trovi qui: https://amzn.to/4xXPHQM\nLa pala la trovi qui: https://amzn.to/4xtDbHF\n\n💬 La domanda adesso è una sola:\nSE DUE INCAPACI SONO RIUSCITI A FARE UNA PIZZA COSÌ... COSA PUÒ FARE CHATGPT CON UNO CHE SA DAVVERO CUCINARE? 😂\n\n#Pizza #ChatGPT #IntelligenzaArtificiale #PizzaFattaInCasa #PizzaConChatGPT #ImpastoPizza #PizzaNapoletana\nScrivetecelo nei commenti!",
+   "id": "72pTmfIfcvs",
+   "published": "2026-09-18T18:52:08+00:00",
+   "slug": "un-prompt-puo-insegnarti-a-fare-una-buona-pizza",
+   "title": "Un prompt può insegnarti a fare una buona pizza?"
+  },
+  "87eYOuue6lA": {
+   "description": "Da una vecchia bicicletta del 1973 acquistata per appena 20 euro… a una bici completamente restaurata e pronta a tornare su strada! 🚲\n\nDopo averla smontata, pulita, riverniciata e recuperato i suoi componenti, siamo finalmente arrivati al momento che aspettavamo: il rimontaggio e il risultato finale!\n\nIn questa ultima puntata della nostra avventura vedrete la Raleigh prendere nuovamente forma, Mari finalmente in sella e, perché no, anche un piccolo aperitivo per festeggiare il lavoro fatto! 🥂\n\nMa la domanda è: ne è valsa la pena? E soprattutto, cosa si può ottenere partendo da una bici di oltre 50 anni pagata soltanto 20 euro?\n\nGuardate il video fino alla fine e diteci cosa ne pensate nei commenti!\n\nSe vi è piaciuto questo restauro, lasciate un LIKE e iscrivetevi al canale per non perdervi i prossimi progetti di LWTV Garage!\n\n#RestauroBici #BiciVintage #Raleigh",
+   "id": "87eYOuue6lA",
+   "published": "2026-11-06T19:28:22+00:00",
+   "slug": "20-per-una-bici-del-1973-ecco-il-risultato-del-restauro",
+   "title": "20€ PER UNA BICI DEL 1973… ECCO IL RISULTATO DEL RESTAURO!"
+  },
+  "9DFize3q2dE": {
+   "description": "Siamo appena tornati dalle vacanze e ci siamo trovati davanti a questa nuova modifica di YouTube: il modo in cui vengono conteggiate le visualizzazioni è cambiato e una VIEW può essere registrata già dall'avvio della riproduzione.\n\nMa cosa cambia davvero per noi creator?\n\nIn questo video parliamo di:\n\n▶️ Nuovo conteggio delle visualizzazioni YouTube\n▶️ View e Engaged Views\n▶️ Cosa cambia realmente per i creator\n▶️ Monetizzazione e visualizzazioni\n▶️ Clickbait: YouTube lo sta favorendo?\n▶️ Contenuti AI e contenuti seriali\n▶️ Come possiamo continuare a fare contenuti autentici… ma imparando a farli cliccare!\n\nPerché forse il problema non è fare clickbait.\n\nForse dobbiamo semplicemente imparare a raccontare e presentare meglio i contenuti che abbiano davvero qualcosa da dire.\n\n💬 E voi cosa ne pensate?\nSecondo voi questa modifica favorirà sempre di più il clickbait oppure, alla fine, continuerà a vincere chi riesce davvero a tenere le persone davanti al video?\n\nScrivetecelo nei commenti! 👇\n\n👍 Se il video vi è piaciuto lasciate un like\n🔔 Iscrivetevi al canale per non perdervi i prossimi video!\n\n#YouTube #Clickbait #Creator #YouTubeItalia #Visualizzazioni #EngagedViews #MonetizzazioneYouTube",
+   "id": "9DFize3q2dE",
+   "published": "2026-08-28T20:35:10+00:00",
+   "slug": "youtube-ha-cambiato-le-regole-adesso-vince-il-clickbait",
+   "title": "YOUTUBE HA CAMBIATO LE REGOLE. ADESSO VINCE IL CLICKBAIT?"
+  },
+  "9Q67RrNStIk": {
+   "description": "E se potessimo avere il nostro Netflix e il nostro Google Foto direttamente a casa, senza pagare ogni mese un abbonamento?\n\nQuesta volta ci siamo messi al lavoro per costruire un piccolo ecosistema multimediale tutto nostro, utilizzando un server ARM e due software open source davvero interessanti: Jellyfin e Immich.\n\n🎬 Jellyfin ci permette di creare il nostro server multimediale, organizzare film e serie TV e guardarli comodamente sulla televisione, sul PC o sui dispositivi compatibili.\n\n📸 Immich ci permette invece di gestire le nostre fotografie, creare una galleria personale e avere un'alternativa self-hosted ai servizi cloud per le immagini.\n\nIl risultato? I nostri contenuti, i nostri dati e i nostri servizi, gestiti direttamente da casa!\n\nIn questo video vediamo come funziona il sistema, cosa possiamo fare e soprattutto lo mettiamo alla prova con qualche dimostrazione pratica.\n\nNon è magia e non è completamente a costo zero: serve un hardware, un po' di configurazione e la voglia di sperimentare. Ma una volta realizzato, possiamo ridurre la dipendenza dagli abbonamenti e avere molto più controllo sui nostri dati.\n\nBenvenuti nel nostro piccolo cloud domestico! 🏠\n\nSe il progetto vi piace, lasciate un LIKE, iscrivetevi al canale e raccontateci nei commenti se anche voi vorreste costruirvi un sistema del genere!\n\nMinipc citato nel video: https://link.amazon/B06sArlC4\nFire TV Stick 4k ultimo modello: https://link.amazon/B0bVHOxyb\nFire Stick Tv 4k: https://link.amazon/B0bVHOxyb\n\n00:00 - Il nostro Netflix fatto in casa\n01:30 - Cosa vogliamo realizzare\n06:23 - Installazione di Jellyfin\n19:40 - Guardiamo un film sulla TV\n21:00 - Installazione di ARM\n29:25 - Installazione Immich\n34:00 - Prova finale e conclusioni\n\n#Jellyfin #Immich #HomeServer",
+   "id": "9Q67RrNStIk",
+   "published": "2026-11-20T20:06:19+00:00",
+   "slug": "film-musica-foto-tutto-gratis",
+   "title": "FILM, MUSICA, FOTO: TUTTO GRATIS!"
+  },
+  "FapovFjWSKk": {
+   "description": "Per viaggiare in Gravel e fare bikepacking servono davvero borse costose? Oppure è possibile organizzarsi bene anche con una soluzione economica?\n\nAbbiamo portato queste borse **Rhinowalk** in viaggio con noi, utilizzandole realmente in Croazia. In questo video vediamo cosa riescono a contenere, come si comportano durante la pedalata e se rimangono stabili anche quando sono cariche.\n\nMa non ci fermiamo qui: abbiamo deciso di sottoporle anche a una prova d’acqua… con un metodo decisamente poco convenzionale! 💦\n\nNel video vedrete:\n\n* cosa abbiamo scelto per un viaggio di due giorni;\n* la borsa da sella e la borsa da telaio;\n* il sistema per aggiungere due borracce;\n* la prova di carico;\n* il test di stabilità;\n* la prova sotto l’acqua;\n* il confronto tra bikepacking e portapacchi tradizionale.\n\nNon abbiamo utilizzato il set completo: manca la borsa da manubrio, che per una scelta personale non abbiamo voluto montare. Vi mostriamo comunque anche quali altre soluzioni sono disponibili.\n\nIl nostro obiettivo è capire una cosa semplice: **si può fare bikepacking in modo pratico, affidabile e alla portata di tutti senza spendere una fortuna?**\n\n👉 Se non avete ancora visto il video sui portapacchi per Gravel, recuperatelo qui:\nhttps://youtu.be/w3EQ5eKwtEw\nLink agli articoli Rhinowalk: \nBorsa sottosella: https://amzn.to/3T1CGqg\nBorsa telaio: https://amzn.to/4xW4VG6\nBorsa manubrio: https://amzn.to/3Ttutv5\n\n💬 Voi cosa preferite: **bikepacking, portapacchi e borse laterali oppure una soluzione ibrida?** Scrivetecelo nei commenti!\n#LWTV #Bikepacking #Gravel #Rhinowalk #Cicloturismo #BikepackingLowCost #Bici #ViaggioInBici",
+   "id": "FapovFjWSKk",
+   "published": "2026-09-13T17:02:28+00:00",
+   "slug": "bikepacking-gravel-low-cost-serve-davvero-spendere-tanto",
+   "title": "BIKEPACKING GRAVEL LOW COST: SERVE DAVVERO SPENDERE TANTO?"
+  },
+  "Ncpy1TUbLxw": {
+   "description": "Siamo scappati in Croazia, ci vediamo con nuovissimi video verso fine Agosto/inizio settembre. Ci saranno tantissime novità!",
+   "id": "Ncpy1TUbLxw",
+   "published": "2026-08-08T17:29:20+00:00",
+   "slug": "siamo-scappati-in-croazia-shorts-croazia-vacanze-lwtv",
+   "title": "Siamo scappati in Croazia #shorts #croazia #vacanze #LWTV"
+  },
+  "Ng3_I0941SY": {
+   "description": "20 euro per una bici del 1973. Ma cosa abbiamo comprato davvero?\n\nInizia il nostro nuovo progetto Old Garage: abbiamo trovato una Raleigh Grand Prix del 1973 e l'abbiamo portata a casa per soli 20 euro.\n\nIn questo primo episodio non la restauriamo ancora: la smontiamo completamente per capire in che condizioni si trova davvero dopo più di 50 anni.\n\nMari si mette al lavoro e comincia a riportare alla luce quello che c'è sotto sporco, ossidazione e anni di utilizzo: freni, cromature, pedivelle, guarnitura, cambio e tutti i componenti vengono smontati e puliti.\n\nMa il vero restauro deve ancora cominciare...\n\nAbbiamo fatto un affare con 20 euro oppure abbiamo comprato un problema?\n\nQuesto è solo il primo di 3 episodi dedicati a questa vecchia bici da corsa.\n\n🚲 Raleigh Grand Prix – 1973\n\n👉 Se ti piacciono restauri, bici d'epoca, meccanica e progetti fatti in garage, iscriviti al canale e seguici fino alla fine del progetto.\n\n#BiciDaCorsa #BiciDepoca #RaleighGrandPrix #RestauroBici #BiciVintage #OldGarage #Restauro",
+   "id": "Ng3_I0941SY",
+   "published": "2026-10-02T18:28:01+00:00",
+   "slug": "20-per-una-bici-del-1973-cosa-abbiamo-comprato-davvero",
+   "title": "20€ PER UNA BICI DEL 1973: COSA ABBIAMO COMPRATO DAVVERO?"
+  },
+  "T6SKNEYWFOA": {
+   "description": "🎃 Dolcetto o scherzetto?\n\nScherzetto! Il corriere ha deciso di rimandare il nostro progetto di restauro della Raleigh del 1973! 😂🚲\n\nI pezzi arriveranno lunedì… speriamo!\n\nMari intanto si è trasformata in strega. Buon Halloween da LWTV Garage! 🧙‍♀️\n\n#Halloween #DolcettoOScherzetto #LWTVGarage #Raleigh1973",
+   "id": "T6SKNEYWFOA",
+   "published": "2026-10-30T19:37:40+00:00",
+   "slug": "dolcetto-o-scherzetto-scherzetto-il-corriere-arriva-lunedi-halloween-d",
+   "title": "Dolcetto o scherzetto? Scherzetto, il corriere arriva Lunedì! #halloween #dolcettooscherzetto #lwtv"
+  },
+  "XI8T0Pry7Ao": {
+   "description": "Abbiamo comprato una **Raleigh Grand Prix del 1973 per appena 20 euro**. Dopo averla smontata completamente, è arrivato il momento di darle una nuova veste: si passa alla verniciatura! 🎨🚲\n\nIn questa seconda puntata del nostro progetto di recupero di una bici da corsa vintage, vi portiamo con noi nella preparazione e nella verniciatura del telaio. Un lavoro fatto in garage, con tanta pazienza, qualche difficoltà e una scelta di colore che non passa certo inosservata!\n\nRiusciremo a restituire carattere a questa vecchia Raleigh degli anni '70? E soprattutto, come verrà il risultato?\n\nLa bici è ancora da rimontare: quello sarà il prossimo capitolo della nostra avventura!\n\n👇 **Scriveteci nei commenti:** voi avreste scelto questo colore per una bici del 1973?\n\n🚲 **GUARDA LA PRIMA PUNTATA**\nLa Raleigh Grand Prix pagata 20 euro: cosa abbiamo comprato davvero?\nhttps://youtu.be/Ng3_I0941SY?si=NiW-_jHJg8T1eR1H\nlink al sito dove abbiamo acquistato la vernice: https://mrspray.it/\n\n🔧 Se vi piacciono i restauri, le bici vintage, il fai-da-te e i progetti realizzati in garage, iscrivetevi al canale e attivate la campanella per non perdervi il prossimo episodio!\n\n#RestauroBici #VerniciaturaBici #BiciVintage #Raleigh #FaiDaTe",
+   "id": "XI8T0Pry7Ao",
+   "published": "2026-10-16T18:28:31+00:00",
+   "slug": "riverniciamo-una-bici-del-1973-guarda-che-trasformazione",
+   "title": "Riverniciamo una bici del 1973: guarda che trasformazione!"
+  },
+  "eNlZklXIpbk": {
+   "description": "Come si monta il Carpuride su una moto con i semimanubri?\n\nÈ una delle domande che ci siamo fatti appena aperta la confezione.\n\nIn questo video non ci limitiamo alla classica recensione del Carpuride: vi mostriamo come installarlo su diverse moto e soprattutto come abbiamo risolto il problema del montaggio su una sportiva con semimanubri grazie ad un semplicissimo supporto stampato in 3D.\nSUPER COUPON 30%: LWTV30\nLink per acquisto: https://carpuride.com/?ref=krepxbhi\n\n🎁 SUPPORTO 3D GRATUITO\nLo trovate qui:\n👉 [LINK GOOGLE DRIVE]\n\nSe avete una stampante 3D potete scaricarlo gratuitamente e modificarlo come preferite.\n\n📱 Nel video trovate:\n✔ Installazione passo passo\n✔ Test su strada\n✔ Android Auto / Apple CarPlay\n✔ Alimentazione\n✔ Supporto per semimanubri\n✔ Pro e contro dopo l'utilizzo\n\n❓Voi montereste un Carpuride sulla vostra moto?\nFatecelo sapere nei commenti!\n\n👍 Se il video vi è stato utile lasciate un Like e iscrivetevi al canale.\n\nBuona visione!\n\n#Carpuride #Moto #AndroidAuto #AppleCarPlay #3DPrinting #Motorcycle",
+   "id": "eNlZklXIpbk",
+   "published": "2026-07-24T18:28:27+00:00",
+   "slug": "come-montare-carpuride-su-qualsiasi-moto-anche-con-i-semimanubri",
+   "title": "Come montare Carpuride su QUALSIASI moto (anche con i semimanubri)"
+  },
+  "eRIZzSl7oqE": {
+   "description": "Le nostre bici sono arrivate fino in Croazia! 🇭🇷🚴‍♀️🚴‍♂️\n\nSiamo in vacanza e, ovviamente, non potevamo lasciare le bici a casa! 😄\n\nQualche pedalata, qualche scorcio della Croazia e le nostre bici che ci accompagnano anche qui.\n\nE visto che in questi giorni abbiamo visto parecchie cose interessanti... nel prossimo video vi racconteremo anche quanto costa DAVVERO una vacanza in Croazia nel 2026. 😉\n\n#Shorts #Croazia #Bici #Ciclismo #BikeTravel",
+   "id": "eRIZzSl7oqE",
+   "published": "2026-08-10T18:34:28+00:00",
+   "slug": "in-croazia-ma-con-le-nostre-gravel-gravel-croazia-shorts-ciclismo-bike",
+   "title": "In Croazia... ma con le nostre Gravel🚴🇭🇷 #gravel  #Croazia #shorts #Ciclismo #BikeTravel #Vacanze"
+  },
+  "hLYyjSyptDY": {
+   "description": "La gravel non basta! 🚵‍♂️ E allora perché non trasformare una vecchia MTB in una moderna tuttofare, pronta ad affrontare gli sterrati e i percorsi che troviamo dalle nostre parti?\n\nIn questa puntata continuiamo il nostro progetto di trasformazione: lavoriamo sul manubrio, montiamo nuovi accessori e completiamo l'allestimento utilizzando diversi componenti acquistati su Temu.\n\nMa attenzione: comprare online non significa sempre risparmiare! Parliamo anche di tasse e costi aggiuntivi, mostrando perché conviene ragionare sugli acquisti nel loro insieme, evitando ordini minuscoli che possono diventare poco convenienti.\nLink agli articoli del video su Temu:\nSpir grip: https://share.temu.com/4Z5axxqybQB\nPignone: 11-46: https://share.temu.com/LwZeEOOpC0B\nAttacco Manubrio: https://share.temu.com/B18ECiOgUeB\nManopole: https://share.temu.com/z4kJs15cU9B\nAppendici Manubrio: https://share.temu.com/6RQMDMFZOOB\n\nE poi una domanda: serve davvero una gravel per divertirsi sugli sterrati? Noi abbiamo deciso di provare una strada diversa, recuperando una vecchia MTB e dandole una nuova possibilità!\n\n🔧 Una vecchia bici, qualche modifica intelligente e tanta voglia di pedalare.\n\n💬 Voi cosa ne pensate? Meglio una gravel oppure una MTB trasformata per diventare una MTB tuttofare?\n\nIscrivetevi al canale e seguiteci: il progetto continua!\n\n#LWTVGarage #MTB #Gravel",
+   "id": "hLYyjSyptDY",
+   "published": "2026-11-13T19:28:33+00:00",
+   "slug": "la-gravel-non-basta-trasformiamo-una-vecchia-mtb-in-una-moderna-mtb-tu",
+   "title": "LA GRAVEL NON BASTA! Trasformiamo una vecchia MTB in una moderna MTB tuttofare!"
+  },
+  "mBSIIKwO1UA": {
+   "description": "📞 **TELEFONARE SENZA UNA LINEA TELEFONICA TRADIZIONALE? Sì, anche in garage!**\n\nNel nostro garage Internet non arrivava. Dopo aver risolto il problema con una TP-Link CPE210, abbiamo deciso di fare un passo in più: portare anche il telefono e tutti i servizi che utilizziamo ogni giorno!\n\nIn questo video vediamo come abbiamo portato la connessione nel garage e cosa riusciamo a fare grazie a questo collegamento: telefonate, chiamate vocali e video con WhatsApp e Telegram e navigazione Internet dal PC.\n\nIl telefono VoIP si collega al nostro centralino FreePBX attraverso la rete, mentre la CPE210 ci permette di raggiungere il garage senza dover stendere un nuovo cavo di rete fino a casa.\n\nIl risultato? Un garage molto più connesso, pronto per nuovi progetti e magari, in futuro, anche per una telecamera di sorveglianza e un sistema antifurto! 🔧📡\n\n🎬 **IL PROGETTO CONTINUA!**\nLink al Cudy AC1200: https://link.amazon/B03yOatED\nEsempio cordless voip: https://link.amazon/B0cORs0UT\nEsempio softphone: https://www.linphone.org/\nLink al TpLink cpe 210: https://link.amazon/B06kEZpi2\nLink al magnete utilizzato per il palo del TpLink CPE 210: https://link.amazon/B0cAQgj0k\n\n\nStiamo trasformando il nostro garage in uno spazio sempre più funzionale, tra tecnologia, fai-da-te e soluzioni pratiche.\n\n💬 **E voi cosa portereste nel vostro garage: telefono, telecamera, antifurto o altro?** Scrivetecelo nei commenti!\n\n👍 Se il video vi è stato utile, lasciate un like e iscrivetevi al canale per seguire i prossimi progetti!\n\n#InternetInGarage #VoIP #FaiDaTe #FreePBX #TPLinkCPE210",
+   "id": "mBSIIKwO1UA",
+   "published": "2026-10-23T18:28:34+00:00",
+   "slug": "telefonare-ovunque-anche-in-garage",
+   "title": "TELEFONARE OVUNQUE? Anche in garage!"
+  },
+  "q8iUBAWZ2MM": {
+   "description": "**Il Wi-Fi di casa non arriva in garage? Ecco come abbiamo risolto!** 🔧📶\n\nNel nostro LWTV Garage il problema era semplice: niente Internet! Il garage è in una posizione dove il Wi-Fi di casa non arriva, e tirare un cavo di rete non era la soluzione più comoda.\n\nCosì abbiamo deciso di provare una soluzione economica: la **TP-Link CPE210**, un dispositivo Wi-Fi da esterno che abbiamo utilizzato per portare la connessione fino al garage.\n\n📡 Ma funziona davvero? E soprattutto, quanta velocità riusciamo a ottenere?\n\nLink amazon Tp-link CPE 210:  https://link.amazon/B0gsJBJXn\n\nNel video vediamo l'installazione, il posizionamento e i test reali della connessione. Il risultato dello speed test ci ha permesso di raggiungere circa **32,7 Mbps in download e 23,2 Mbps in upload**.\n\nNon sarà una connessione da record, ma per lavorare nel garage, navigare, collegarsi ai dispositivi e fare tante altre cose potrebbe essere più che sufficiente!\n\nSe anche tu hai un garage, una cantina, un laboratorio o un punto della casa dove il Wi-Fi non arriva, questa soluzione potrebbe interessarti.\n\n💬 **Tu come porteresti Internet dove il Wi-Fi non arriva?** Scrivicelo nei commenti!\n\n👍 Se il video ti è stato utile, lascia un like e iscriviti al canale per altri esperimenti, riparazioni e progetti nel nostro garage.\n\nBenvenuti su **LWTV Garage**, dove proviamo a risolvere i problemi mettendoci le mani!\n\n#WiFi #TPLink #LWTVGarage #FaiDaTe #Tecnologia",
+   "id": "q8iUBAWZ2MM",
+   "published": "2026-10-09T18:28:27+00:00",
+   "slug": "internet-in-garage-come-portare-il-wi-fi-dove-non-arriva",
+   "title": "INTERNET IN GARAGE: come portare il Wi-Fi dove non arriva!"
+  },
+  "w3EQ5eKwtEw": {
+   "description": "Abbiamo provato diverse soluzioni per montare un portapacchi sulla nostra gravel 🚲\n\nIn questo video partiamo dal Topeak Super Tourist DX Disc, un portapacchi che costa molto meno di soluzioni più blasonate ma che, dopo averlo provato anche durante il nostro viaggio in Croazia, ci ha davvero convinto.\n\nIl punto fondamentale? 👇\nLe borse laterali vengono mantenute più lontane dalla ruota e questo può aiutare a risolvere uno dei problemi più fastidiosi: borse che rischiano di finire nei raggi.\n\nVedremo anche:\n\n🔧 Come montare un portapacchi su una bici non completamente predisposta\n🚲 Diverse tipologie di portapacchi a confronto\n💰 Soluzioni economiche vs soluzioni più costose\n🧳 Compatibilità con borse laterali e Cobags\n💡 Come montare le luci posteriori\n🖨️ Un piccolo accessorio stampato in 3D per una delle configurazioni\n🌍 La nostra esperienza reale dopo averlo utilizzato anche in viaggio\n\nQuindi la domanda è semplice:\n\nPer una gravel serve davvero spendere tanto per avere un buon portapacchi? 🤔\n\nGuardate il video fino alla fine e diteci nei commenti quale soluzione montereste sulla vostra bici!\nLink Amazon per acquisto del portapacchi:\nhttps://amzn.to/4iN0UPp\nhttps://amzn.eu/d/03fNOMMJ\n\nLink all'e-shop dove abbiamo acquistato portapacchi e supporto:\nhttps://www.tradeinn.com/bikeinn/it/topeak-portapacchi-uni-super-tourist-dx-disc/139801503/p?tqw=24-29%C2%B4%C2%B4\nhttps://www.tradeinn.com/bikeinn/it/m-wave-morsetto-reggisella-racky/137641675/p?tqw=34.9%20mm\n\n\n👍 Se il video vi è piaciuto lasciate un like\n🔔 Iscrivetevi al canale per non perdere i prossimi progetti tra bici, tecnologia, fai da te e stampa 3D!\n\n#Gravel #Bikepacking #Portapacchi #GravelBike #Cicloturismo #Bici #Topeak",
+   "id": "w3EQ5eKwtEw",
+   "published": "2026-09-04T18:46:19+00:00",
+   "slug": "gravel-serve-davvero-spendere-tanto-per-un-portapacchi",
+   "title": "GRAVEL: serve DAVVERO spendere tanto per un portapacchi?"
+  }
+ }
 }
