@@ -156,6 +156,26 @@ def fetch_rss(channel_id):
     return parse_feed(http_get(url))
 
 
+def parse_duration(iso):
+    """'PT1H2M30S' -> secondi."""
+    m = re.fullmatch(r"P(?:(\d+)D)?T?(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?", iso or "")
+    if not m:
+        return None
+    d, h, mi, sec = (int(x or 0) for x in m.groups())
+    return d * 86400 + h * 3600 + mi * 60 + sec
+
+
+def fetch_durations(ids, key):
+    out = {}
+    for i in range(0, len(ids), 50):
+        params = {"part": "contentDetails", "id": ",".join(ids[i:i + 50]), "key": key}
+        data = json.loads(http_get(
+            "https://www.googleapis.com/youtube/v3/videos?" + urllib.parse.urlencode(params)))
+        for it in data.get("items", []):
+            out[it["id"]] = parse_duration(it.get("contentDetails", {}).get("duration"))
+    return out
+
+
 def fetch_api(channel_id, key):
     """Tutti i video del canale (playlist 'caricamenti'), 50 alla volta."""
     uploads = "UU" + channel_id[2:]
@@ -171,6 +191,12 @@ def fetch_api(channel_id, key):
         token = data.get("nextPageToken")
         if not token:
             break
+    try:
+        durations = fetch_durations([it["id"] for it in items], key)
+        for it in items:
+            it["duration"] = durations.get(it["id"])
+    except Exception as e:  # noqa: BLE001
+        print(f"ATTENZIONE: durate non lette ({e}); i video corti non si possono riconoscere dalla durata")
     return items
 
 
@@ -187,11 +213,14 @@ def update_cache(cache_file, fetched):
             cur["title"] = f["title"] or cur["title"]
             cur["description"] = f["description"] or cur.get("description", "")
             cur["published"] = f["published"] or cur["published"]
+            if f.get("duration") is not None:
+                cur["duration"] = f["duration"]
         else:
             vids[f["id"]] = {
                 "id": f["id"], "slug": unique_slug(f["title"], used),
                 "title": f["title"], "published": f["published"],
                 "description": f["description"],
+                "duration": f.get("duration"),
             }
             new += 1
     cache_file.parent.mkdir(parents=True, exist_ok=True)
@@ -251,6 +280,16 @@ def keyword_section(text, sections):
     return best
 
 
+def is_short(video, cfg):
+    """Short = durata sotto la soglia, oppure #shorts nel titolo o nella descrizione."""
+    minimo = cfg.get("durata_minima_secondi", 181)
+    dur = video.get("duration")
+    if dur is not None and dur < minimo:
+        return True
+    tags = hashtags(video.get("description", "")) + hashtags(video.get("title", ""))
+    return any(t in ("short", "shorts") for t in tags)
+
+
 def classify(video, meta, sections, hidden):
     """Restituisce (sezione, motivo). Sezione None = video non pubblicato."""
     if video["id"] in hidden or meta.get("nascondi"):
@@ -293,6 +332,10 @@ def build_videos(cache, cfg, md_by_id, hidden, dl_dir, base):
     videos, elenco = [], []
     for v in sorted(cache["videos"].values(), key=lambda x: x["published"], reverse=True):
         meta, body = md_by_id.get(v["id"], ({}, ""))
+        if is_short(v, cfg) and not meta.get("mostra"):
+            elenco.append(f"{v['id']} | {v['published'][:10]} | NASCOSTO (short o video troppo corto) | "
+                          f"approfondimento: {'si' if body.strip() else 'no'} | {v['title']}")
+            continue
         sec, why = classify(v, meta, sections, hidden)
         has_text = bool(body.strip())
         stato = "NASCOSTO" if sec is None else f"pubblicato in {sec['nome']}"

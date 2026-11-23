@@ -14,6 +14,7 @@
     "lwtvchannel",
     "oldgarage"
   ],
+  "durata_minima_secondi": 181,
   "sezioni": [
     {
       "slug": "old-garage",
