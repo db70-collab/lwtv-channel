@@ -45,7 +45,16 @@
         "bici",
         "bicicletta",
         "auto",
-        "meccanica"
+        "meccanica",
+        "gravel",
+        "mtb",
+        "bikepacking",
+        "portapacchi",
+        "semimanubri",
+        "carpuride",
+        "manubrio",
+        "pedali",
+        "forcella"
       ]
     },
     {
@@ -78,7 +87,15 @@
         "arduino",
         "chatgpt",
         "claude",
-        "gemini"
+        "gemini",
+        "wi-fi",
+        "internet",
+        "telefonare",
+        "prompt",
+        "nas",
+        "jellyfin",
+        "vpn",
+        "rete"
       ]
     },
     {
