@@ -55,7 +55,14 @@
         "carpuride",
         "manubrio",
         "pedali",
-        "forcella"
+        "forcella",
+        "fari",
+        "forature",
+        "ciclocomputer",
+        "ammortizzatori",
+        "sospensioni",
+        "telaio",
+        "temu"
       ]
     },
     {
@@ -82,7 +89,6 @@
         "pc",
         "computer",
         "smartphone",
-        "tutorial",
         "home assistant",
         "esp32",
         "arduino",
@@ -96,7 +102,30 @@
         "nas",
         "jellyfin",
         "vpn",
-        "rete"
+        "rete",
+        "netbook",
+        "ram",
+        "ssd",
+        "portatile",
+        "acer",
+        "zorin",
+        "opnsense",
+        "openwrt",
+        "meshtastic",
+        "nodo",
+        "samsung",
+        "android",
+        "nordvpn",
+        "alexa",
+        "daikin",
+        "climatizzatori",
+        "retrogame",
+        "emula",
+        "console",
+        "gl.inet",
+        "access point",
+        "homelab",
+        "vecchi pc"
       ]
     },
     {
@@ -118,7 +147,12 @@
         "costruire",
         "costruiamo",
         "falegnameria",
-        "tavolo"
+        "tavolo",
+        "steampunk",
+        "sveglia",
+        "costo zero",
+        "tende",
+        "banchetto"
       ]
     }
   ],
