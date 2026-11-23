@@ -1,17 +1,17 @@
 # Elenco di tutti i video del canale e di come vengono trattati dal sito.
 # Formato: ID | data | stato | approfondimento | titolo
 9Q67RrNStIk | 2026-11-20 | NASCOSTO (non classificato) | approfondimento: no | FILM, MUSICA, FOTO: TUTTO GRATIS!
-hLYyjSyptDY | 2026-11-13 | NASCOSTO (non classificato) | approfondimento: no | LA GRAVEL NON BASTA! Trasformiamo una vecchia MTB in una moderna MTB tuttofare!
+hLYyjSyptDY | 2026-11-13 | pubblicato in Old Garage (parole nel titolo) | approfondimento: no | LA GRAVEL NON BASTA! Trasformiamo una vecchia MTB in una moderna MTB tuttofare!
 87eYOuue6lA | 2026-11-06 | pubblicato in Old Garage (parole nel titolo) | approfondimento: no | 20€ PER UNA BICI DEL 1973… ECCO IL RISULTATO DEL RESTAURO!
 T6SKNEYWFOA | 2026-10-30 | NASCOSTO (non classificato) | approfondimento: no | Dolcetto o scherzetto? Scherzetto, il corriere arriva Lunedì! #halloween #dolcettooscherzetto #lwtv
-mBSIIKwO1UA | 2026-10-23 | NASCOSTO (non classificato) | approfondimento: no | TELEFONARE OVUNQUE? Anche in garage!
+mBSIIKwO1UA | 2026-10-23 | pubblicato in Tech Lab (parole nel titolo) | approfondimento: no | TELEFONARE OVUNQUE? Anche in garage!
 XI8T0Pry7Ao | 2026-10-16 | pubblicato in Old Garage (parole nel titolo) | approfondimento: no | Riverniciamo una bici del 1973: guarda che trasformazione!
-q8iUBAWZ2MM | 2026-10-09 | NASCOSTO (non classificato) | approfondimento: no | INTERNET IN GARAGE: come portare il Wi-Fi dove non arriva!
+q8iUBAWZ2MM | 2026-10-09 | pubblicato in Tech Lab (parole nel titolo) | approfondimento: no | INTERNET IN GARAGE: come portare il Wi-Fi dove non arriva!
 Ng3_I0941SY | 2026-10-02 | pubblicato in Old Garage (parole nel titolo) | approfondimento: no | 20€ PER UNA BICI DEL 1973: COSA ABBIAMO COMPRATO DAVVERO?
-72pTmfIfcvs | 2026-09-18 | NASCOSTO (non classificato) | approfondimento: no | Un prompt può insegnarti a fare una buona pizza?
-FapovFjWSKk | 2026-09-13 | NASCOSTO (non classificato) | approfondimento: no | BIKEPACKING GRAVEL LOW COST: SERVE DAVVERO SPENDERE TANTO?
-w3EQ5eKwtEw | 2026-09-04 | NASCOSTO (non classificato) | approfondimento: no | GRAVEL: serve DAVVERO spendere tanto per un portapacchi?
+72pTmfIfcvs | 2026-09-18 | pubblicato in Tech Lab (parole nel titolo) | approfondimento: no | Un prompt può insegnarti a fare una buona pizza?
+FapovFjWSKk | 2026-09-13 | pubblicato in Old Garage (parole nel titolo) | approfondimento: no | BIKEPACKING GRAVEL LOW COST: SERVE DAVVERO SPENDERE TANTO?
+w3EQ5eKwtEw | 2026-09-04 | pubblicato in Old Garage (parole nel titolo) | approfondimento: no | GRAVEL: serve DAVVERO spendere tanto per un portapacchi?
 9DFize3q2dE | 2026-08-28 | NASCOSTO (non classificato) | approfondimento: no | YOUTUBE HA CAMBIATO LE REGOLE. ADESSO VINCE IL CLICKBAIT?
-eRIZzSl7oqE | 2026-08-10 | NASCOSTO (non classificato) | approfondimento: no | In Croazia... ma con le nostre Gravel🚴🇭🇷 #gravel  #Croazia #shorts #Ciclismo #BikeTravel #Vacanze
+eRIZzSl7oqE | 2026-08-10 | pubblicato in Old Garage (parole nel titolo) | approfondimento: no | In Croazia... ma con le nostre Gravel🚴🇭🇷 #gravel  #Croazia #shorts #Ciclismo #BikeTravel #Vacanze
 Ncpy1TUbLxw | 2026-08-08 | NASCOSTO (non classificato) | approfondimento: no | Siamo scappati in Croazia #shorts #croazia #vacanze #LWTV
 eNlZklXIpbk | 2026-07-24 | pubblicato in Old Garage (parole nel titolo) | approfondimento: no | Come montare Carpuride su QUALSIASI moto (anche con i semimanubri)
