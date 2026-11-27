@@ -1,5 +1,6 @@
 # Elenco di tutti i video del canale e di come vengono trattati dal sito.
 # Formato: ID | data | stato | approfondimento | titolo
+coI2lHeADTs | 2026-11-27 | pubblicato in Old Garage (parole nel titolo) | approfondimento: no | BASTA PERDERSI! Il ciclocomputer GPS da 150 € che ci ha conquistati!
 9Q67RrNStIk | 2026-11-20 | NASCOSTO (non classificato) | approfondimento: no | FILM, MUSICA, FOTO: TUTTO GRATIS!
 hLYyjSyptDY | 2026-11-13 | pubblicato in Old Garage (parole nel titolo) | approfondimento: no | LA GRAVEL NON BASTA! Trasformiamo una vecchia MTB in una moderna MTB tuttofare!
 87eYOuue6lA | 2026-11-06 | pubblicato in Old Garage (parole nel titolo) | approfondimento: no | 20€ PER UNA BICI DEL 1973… ECCO IL RISULTATO DEL RESTAURO!
